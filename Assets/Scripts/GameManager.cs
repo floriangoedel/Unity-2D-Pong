@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
         {
             StartRound();
         }
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
             
     }
     
